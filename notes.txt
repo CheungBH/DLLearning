@@ -1,0 +1,1 @@
+Keras中model.evaluate（）返回的是 损失值和你选定的指标值（例如，精度accuracy）

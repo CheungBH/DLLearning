@@ -88,7 +88,6 @@ def preprocess_image(image_path):
     img = inception_v3.preprocess_input(img)
     return img
 
-
 def deprocess_image(x):
     # Util function to convert a tensor into a valid image.
     if K.image_data_format() == 'channels_first':
